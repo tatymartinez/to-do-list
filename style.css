@@ -1,0 +1,63 @@
+body {
+    background: #32C3C6;
+}
+
+ .wrapper {
+    margin: auto;
+    text-align: center;
+} 
+
+h1 {
+    margin: 20px;
+    font-size: 6rem;
+    color: white;
+    text-align: center;
+}
+
+h2 {
+    margin: 20px;
+    font-size: 4rem;
+    color: black;
+    text-align: center;
+}
+
+.item-list {
+    text-align: center;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    font-size: 3rem;
+}
+
+.addButton {
+    text-align: center;
+    display: inline-block;
+    width: 300px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    font-size: 2rem;
+    margin-left: 10px;
+}
+
+.deleteButton {
+    text-align: center;
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    font-size: 2rem;
+    float: right;
+    margin-left: 50px;
+}
+
+#item {
+    text-align: center;
+    display: inline-block;
+    width: 500px;
+    height: 50px;
+    font-size: 2rem;
+}

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+</head>
+<body>
+    <h1>Things To Do:</h1>
+    <section class="wrapper">
+        <section class="input-form">
+            <h2>Add Items</h2>
+            <form id="addForm">
+                <input type="text" id="item">
+                <button type="submit" onclick="addListItem()" class="addButton" value="submit">Add List Item</button>
+            </form>
+        </section>
+        <br>
+        <section class="item-list">
+            <h2>Items</h2>
+            <ul id="items" class="list-group">
+                <li class="list-group-item">Item 1<button class="deleteButton" onclick="deleteListItem()">X</button></li>
+                <li class="list-group-item">Item 2<button class="deleteButton" onclick="deleteListItem()">X</button></li>
+                <li class="list-group-item">Item 3<button class="deleteButton" onclick="deleteListItem()">X</button></li>
+                <li class="list-group-item">Item 4<button class="deleteButton" onclick="deleteListItem()">X</button></li>
+            </ul>
+        </section>
+    </section>
+    <script src="script.js" charset="utf-8"></script>
+</body>
+</html>
